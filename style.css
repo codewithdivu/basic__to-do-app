@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Baloo 2', cursive;
+}
+#container{
+    background-color: #e6b9fc;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ll{
+    background-color: white;
+    padding: 2rem;
+}
+
+li{
+    list-style: none;
+    margin-left: 50px;
+    /* background-color: hotpink; */
+}
+
+#input{
+    width: 537px;
+    /* width: 40rem; */
+}
+
+#content{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: purple; */
+    /* border: 1px solid black; */
+    
+
+}
+h1{
+    color: #3f3797;
+}
